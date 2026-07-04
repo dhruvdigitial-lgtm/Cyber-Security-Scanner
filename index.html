@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyber Security Scanner</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🛡 Cyber Security Scanner</h1>
+        <p class="subtitle">
+            Check whether a website uses a secure HTTPS connection.
+        </p>
+
+        <div class="scanner-box">
+
+            <input
+                type="text"
+                id="website"
+                placeholder="Enter Website URL (https://example.com)"
+            >
+
+            <button onclick="scanWebsite()">
+                Scan Website
+            </button>
+
+        </div>
+
+        <div id="result" class="result">
+
+            <h2>Scan Result</h2>
+
+            <p>
+                Enter a website URL and click
+                <b>Scan Website</b>.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
